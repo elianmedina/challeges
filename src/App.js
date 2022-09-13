@@ -1,6 +1,8 @@
-import {Counter} from './Components/1'
-import { Lista } from './Components/2';
-import './Components/challenges.css'
+import {Counter} from './components/1'
+import { Lista } from './components/2';
+import './components/challenges.css';
+import {GifExpertApp} from './components/GifExpertApp';
+
 function App() {
   return (
     <>
@@ -8,6 +10,8 @@ function App() {
     <Counter/>
     <hr className="mt-5" />
     <Lista/>
+    <hr className="mt-5" />
+    <GifExpertApp />
 
     </>
   )
